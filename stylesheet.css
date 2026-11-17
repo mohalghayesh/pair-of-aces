@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "general-sans";
+    src: url("./fonts/GeneralSans/GeneralSans-Medium.otf");
+
+}
+
+@font-face {
+    font-family: "gambetta";
+    src: url("./fonts/Gambetta/Gambetta-Regular.otf");
+}
+
+
+h1 {
+    font-family: "general-sans";
+    font-size: 64px;
+}
+
+h2 {
+    font-family: "gambetta";
+}
