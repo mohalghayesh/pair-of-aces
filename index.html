@@ -1,107 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheet.css">
-    <script defer src="/app.js"></script>
-    <title>Document</title>
-</head>
-<body>
-
-    <div>
-        <h1> Pair of Aces </h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script defer src="app.js"></script>
+    <title>Pair of Aces</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Pair of Aces</h1>
     </div>
 
-    <div>
-        <h3 class="btn"> How to play </h3>
+    <div class="how-to-play">
+      <h3>How to play</h3>
+      <p>
+        Press Play. All the cards show face up for a few seconds, then flip face
+        down and shuffle.
+      </p>
+      <p>
+        Flip two at a time to match the same number AND suit. Matched cards stay
+        face up.
+      </p>
+      <p>Find every pair before the timer hits 0:00.</p>
     </div>
-    
-    <div>
-        <h3 class="btn"> Play </h3>
-        
+
+    <div class="status-bar">
+      <p class="box" id="timer">Timer: 1:00</p>
+      <p class="box" id="pairs">Pairs found: 0 / 10</p>
+      <button class="btn" id="play-btn">Play</button>
     </div>
 
     <div class="card-container">
+      <div class="card">🃟</div>
 
+      <div class="card">🃟</div>
 
-    <div class="card">
-        🃟
-    </div>
+      <div class="card">🃟</div>
 
-        <div class="card">
-        🃟
-    </div>
+      <div class="card">🃟</div>
 
-        <div class="card">
-        🃟
-    </div>
+      <div class="card">🃟</div>
+      <div class="card">🃟</div>
 
-        <div class="card">
-        🃟
-    </div>
+      <div class="card">🃟</div>
 
-        <div class="card">
-        🃟
-    </div>
-        <div class="card">
-        🃟
-    </div>
+      <div class="card">🃟</div>
 
-        <div class="card">
-        🃟
-    </div>
+      <div class="card">🃟</div>
 
-        <div class="card">
-        🃟
-    </div>
+      <div class="card">🃟</div>
+      <div class="card">🃟</div>
 
-        <div class="card">
-        🃟
-    </div>
+      <div class="card">🃟</div>
 
-        <div class="card">
-        🃟
-    </div>
-     <div class="card">
-        🃟
+      <div class="card">🃟</div>
+
+      <div class="card">🃟</div>
+
+      <div class="card">🃟</div>
+      <div class="card">🃟</div>
+
+      <div class="card">🃟</div>
+
+      <div class="card">🃟</div>
+
+      <div class="card">🃟</div>
+
+      <div class="card">🃟</div>
     </div>
 
-        <div class="card">
-        🃟
+    <div class="result-bar">
+      <p class="box result" id="result">Result message appears here</p>
+      <button class="btn" id="play-again-btn">Play Again</button>
     </div>
-
-        <div class="card">
-        🃟
-    </div>
-
-        <div class="card">
-        🃟
-    </div>
-
-        <div class="card">
-        🃟
-    </div>
-        <div class="card">
-        🃟
-    </div>
-
-        <div class="card">
-        🃟
-    </div>
-
-        <div class="card">
-        🃟
-    </div>
-
-        <div class="card">
-        🃟
-    </div>
-
-        <div class="card">
-        🃟
-    </div>
-    
-    </div>
-</body>
+  </body>
 </html>
